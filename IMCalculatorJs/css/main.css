@@ -1,0 +1,13 @@
+html{
+  font-family: Roboto, sans-serif;
+}
+#header header h1{
+  font-size: 36pt;
+  animation-name: transformation;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+}
+@keyframes transformation{
+  0%{font-size: 12pt;}
+  100%{font-size: 36pt;}
+}

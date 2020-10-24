@@ -1,0 +1,45 @@
+*{
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #038C8C;
+  margin: 0;
+}
+#header{
+  display: block;
+  text-align: center;
+  margin-top: 5vw;
+  margin-bottom: 9vw;
+  color: #F29D1D;
+}
+#header header h1{
+  margin: 0;
+}
+.weightbox{
+  display: grid;
+  grid-gap: 6vw;
+  grid-template-columns: 100px 10vw;
+  position: absolute;
+  left: 40%;
+  transform: translate(0%,-50%);
+  color: #F29D1D;
+  font-size: 18pt;
+}
+.weightbox label{
+  display: flex;
+  flex-direction: row;
+  align-items: center;  
+}
+.weightbox input{
+  background:#37403E;
+  height: 6vh;
+  border-radius: 15pt;
+  outline: 0;
+  border-style: none;
+}
+.box-txt{
+  color:white;
+  padding-left: 1vw;
+  float: left;
+}
