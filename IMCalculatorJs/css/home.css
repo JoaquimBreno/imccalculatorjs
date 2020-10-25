@@ -9,8 +9,8 @@ body{
 #header{
   display: block;
   text-align: center;
-  margin-top: 5vw;
-  margin-bottom: 9vw;
+  margin-top: 20vh;
+  margin-bottom: 8vh;
   color: #F29D1D;
 }
 #header header h1{
@@ -20,9 +20,8 @@ body{
   display: grid;
   grid-gap: 6vw;
   grid-template-columns: 100px 10vw;
-  position: absolute;
-  left: 40%;
-  transform: translate(0%,-50%);
+ /** position: absolute;*/
+  justify-content: center;
   color: #F29D1D;
   font-size: 18pt;
 }
@@ -43,3 +42,17 @@ body{
   padding-left: 1vw;
   float: left;
 }
+.btn{
+  background: #37403E;
+  color: white;
+  margin-top: 8vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15pt;
+  border-style: none;
+  height: 6vh;
+  width: 10vw;
+  transition: background .5s;
+}
+

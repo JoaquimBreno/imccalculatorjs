@@ -1,13 +1,28 @@
 html{
   font-family: Roboto, sans-serif;
 }
+body{
+  opacity: 1;
+  animation-name: opacity;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+}
 #header header h1{
   font-size: 36pt;
+  opacity: 1;
   animation-name: transformation;
   animation-duration: 1s;
   animation-timing-function: ease;
 }
+.btn:hover{
+  color: #37403E;
+  background: white;
+}
 @keyframes transformation{
-  0%{font-size: 12pt;}
+  0%{font-size: 12pt; }
   100%{font-size: 36pt;}
+}
+@keyframes opacity{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
 }
