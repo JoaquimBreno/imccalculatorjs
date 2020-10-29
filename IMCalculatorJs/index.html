@@ -17,13 +17,13 @@
   <form>
     <div class="weightbox">
       <label for="weight-txt">Peso(kg):</label>
-      <input class="box-txt" type="text" name="box" placeholder=" Digite seu Peso "> 
+      <input id='num1' class="box-txt" type="text" placeholder=" Digite seu Peso "> 
       <label for="height-txt">Altura(cm):</label>
-      <input class="box-txt" type="text" name="box" placeholder=" Digite sua Altura ">  
+      <input id="num2" class="box-txt" type="text" placeholder=" Digite sua Altura ">  
     </div>
-      <button class="btn">Calcular</button>
+      <button class="btn" onclick="clicar()" type="button">Calcular</button>  
   </form> 
-  
+      <p id="resultado"></p>
 </body>
-<script href="js/script.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
 </html>
