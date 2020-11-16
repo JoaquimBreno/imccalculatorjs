@@ -37,6 +37,15 @@ body{
   outline: 0;
   border-style: none;
 }
+.gender{
+  display: flex;
+  flex-direction: row; 
+}
+.genderlbl{
+  padding-left:3vw;
+  font-size: 2vh;
+  color: white;
+}
 .box-txt{
   color:white;
   padding-left: 1vw;
