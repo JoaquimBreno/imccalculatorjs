@@ -2,10 +2,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
-  background-color: #038C8C;
-  margin: 0;
-}
 #header{
   display: block;
   text-align: center;
@@ -44,7 +40,8 @@ body{
 .genderlbl{
   padding-left:3vw;
   font-size: 2vh;
-  color: white;
+  color: #F29D1D;
+  text-shadow: 1px 1px #945c07b6;
 }
 .box-txt{
   color:white;
