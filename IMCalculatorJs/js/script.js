@@ -11,25 +11,27 @@ function clicar() {
     resultado: result.toFixed(2) 
   };
   
-  var str = imcman(imc.resultado); 
-
-  //
-  console.log(str.txt, str.color);
- // window.location.href = "result.html";
+  //Function who's analyze the imc result
+  var demo = imcman(imc.resultado);
+  //Cache files
+  localStorage.setItem("message", demo.tx);
+  localStorage.setItem("color", demo.colour);
+  //Jump the page
+  window.location.href = "result.html";
 }
 
 function imcman(resultado){
   if(resultado < 20.7){
-    txt = "abaixo do peso";
-    color = "vermelho";
+    tx = "abaixo do peso";
+    colour = "red";
   }
   else{
-    txt = "acima do peso";
-    color = "azul";
+    tx = "acima do peso";
+    colour = "green";
   }
-
-  return {
-    txt:txt,
-    color:color
-  };
+  return{
+    tx:tx,
+    colour:colour
+  }
 }
+
