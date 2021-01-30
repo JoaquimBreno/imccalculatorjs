@@ -27,7 +27,7 @@ function imcman(resultado){
   }
   else{
     tx = "acima do peso";
-    colour = "green";
+    colour = "blue";
   }
   return{
     tx:tx,
