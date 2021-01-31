@@ -17,17 +17,17 @@ function clicar() {
   localStorage.setItem("message", demo.tx);
   localStorage.setItem("color", demo.colour);
   //Jump the page
-  window.location.href = "result.html";
+  window.location.href = "result.html";  
 }
 
 function imcman(resultado){
   if(resultado < 20.7){
-    tx = "abaixo do peso";
-    colour = "red";
+    tx = "ABAIXO DO PESO";
+    colour = "#8c2a03";
   }
   else{
-    tx = "acima do peso";
-    colour = "blue";
+    tx = "ACIMA DO PESO";
+    colour = "#F25811";
   }
   return{
     tx:tx,

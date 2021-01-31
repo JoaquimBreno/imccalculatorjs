@@ -1,13 +1,15 @@
-*{
+body{
   padding: 0;
   box-sizing: border-box;
+  background-color: #038C8C;
 }
 #header{
   display: block;
   text-align: center;
   margin-top: 15vh;
   margin-bottom: 8vh;
-  color: #F29D1D;
+  color: white;
+  text-shadow: 0.5px 0.5px 15px #0000008c;
 }
 #header header h1{
   margin: 0;
@@ -18,7 +20,7 @@
   grid-template-columns: 100px 10vw;
  /** position: absolute;*/
   justify-content: center;
-  color: #F29D1D;
+  color: white;
   font-size: 18pt;
 }
 .weightbox label{
@@ -39,8 +41,8 @@
 }
 .genderlbl{
   padding-left:3vw;
-  font-size: 2vh;
-  color: #F29D1D;
+  font-size: 12pt;
+  color: white;
   text-shadow: 1px 1px #945c07b6;
 }
 .box-txt{
@@ -50,7 +52,7 @@
 }
 .btn{
   background: #37403E;
-  color: white;
+  color: rgb(255, 53, 53);
   margin-top: 8vh;
   display: block;
   margin-left: auto;

@@ -1,12 +1,39 @@
+body{
+    background-color:  #a9f0f0;
+}
 #header{
     display: block;
     text-align: center;
-    margin-top: 15vh;
-    margin-bottom: 8vh;
-    color: #F29D1D;
+    padding-top: 15vh;
+    padding-bottom: 8vh;
+    color: white;
+    background-color: #02b9b9;
+    
+}
+#header header h1{
+    text-shadow: 0.5px 0.5px 15px #0000008c;
+}
+#brickone{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    display: flex;
+    width: 180px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    margin:0 auto;
 }
 #box{
-    display: block;
-    text-align: center;
+    box-shadow: 0 0 14px rgba(0, 0, 139, 0.253);
+    border-radius: 20px;
     margin-top: 20vh;
+    font-family: Quicksand, sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 3px #ff8b06;
 }
