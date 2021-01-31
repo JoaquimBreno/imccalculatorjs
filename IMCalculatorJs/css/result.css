@@ -19,6 +19,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin:0 auto;
+    font-family: Quicksand, sans-serif;
+}
+#brickone div{
+    display: flex;
 }
 .btn{
     display: flex;
@@ -26,14 +31,27 @@ body{
     height: 50px;
     align-items: center;
     justify-content: center;
-    margin:0 auto;
+    
 }
 #box{
     box-shadow: 0 0 14px rgba(0, 0, 139, 0.253);
     border-radius: 20px;
-    margin-top: 20vh;
-    font-family: Quicksand, sans-serif;
+    margin-top: 15vh;
+    margin-bottom: 25vh;
+    margin-right:2em;
     text-align: center;
     color: white;
     text-shadow: 1px 1px 3px #ff8b06;
+    transition:200ms;
+}
+.btn2{
+    margin-top: 15vh;
+    box-shadow: 0 0 14px rgba(0, 0, 139, 0.253);
+    display: flex;
+    width: 500px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
 }

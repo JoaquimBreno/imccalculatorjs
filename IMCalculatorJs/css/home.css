@@ -52,7 +52,7 @@ body{
 }
 .btn{
   background: #37403E;
-  color: rgb(255, 53, 53);
+  color:  #ffffff42;
   margin-top: 8vh;
   display: block;
   margin-left: auto;
@@ -63,4 +63,6 @@ body{
   width: 10vw;
   transition: background .5s;
 }
+
+
 
