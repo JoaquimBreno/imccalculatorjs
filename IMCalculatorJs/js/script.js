@@ -19,7 +19,7 @@ function clicar() {
 
   var demo;
   //Function who's analyze the imc result
-  var rate_value = 'Masculino' ? demo = imcman(imc.resultado) : demo = imcwoman(imc.resultado);
+  var rate_value = 'Feminino' ? demo = imcman(imc.resultado) : demo = imcwoman(imc.resultado);
 
   //Cache files
   localStorage.setItem("message", demo.tx);
@@ -33,6 +33,7 @@ function imcman(resultado){
   if( resultado < 20.7 ){
     tx = "ABAIXO DO PESO";
     colour = "#8c2a03";
+    
   }
   else if( resultado <= 26.4 ){
     tx = "PESO IDEAL";

@@ -2,6 +2,7 @@ body{
   padding: 0;
   box-sizing: border-box;
   background-color: #038C8C;
+  text-shadow: 0.5px 0.5px 15px #0000008c;
 }
 #header{
   display: block;
@@ -9,7 +10,7 @@ body{
   margin-top: 15vh;
   margin-bottom: 8vh;
   color: white;
-  text-shadow: 0.5px 0.5px 15px #0000008c;
+  
 }
 #header header h1{
   margin: 0;

@@ -1,17 +1,13 @@
-body{
-    background-color:  #a9f0f0;
-}
+
 #header{
     display: block;
     text-align: center;
     padding-top: 15vh;
     padding-bottom: 8vh;
     color: white;
-    background-color: #02b9b9;
-    
 }
 #header header h1{
-    text-shadow: 0.5px 0.5px 15px #0000008c;
+    text-shadow: 0.5px 0.5px 15px #424242;
 }
 #brickone{
     width: 100%;
@@ -34,19 +30,18 @@ body{
     
 }
 #box{
-    box-shadow: 0 0 14px rgba(0, 0, 139, 0.253);
+    box-shadow: 0 0 14px #424242;
     border-radius: 20px;
-    margin-top: 15vh;
-    margin-bottom: 25vh;
     margin-right:2em;
     text-align: center;
     color: white;
     text-shadow: 1px 1px 3px #ff8b06;
     transition:200ms;
+    
+
 }
 .btn2{
-    margin-top: 15vh;
-    box-shadow: 0 0 14px rgba(0, 0, 139, 0.253);
+    box-shadow: 0 0 14px #424242;
     display: flex;
     width: 500px;
     height: 300px;

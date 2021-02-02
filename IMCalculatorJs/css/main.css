@@ -7,6 +7,7 @@ body{
   animation-name: opacity;
   animation-duration: 1s;
   animation-timing-function: ease;
+  background-image: linear-gradient( to right, #161616, #2B2B2B);
 }
 #header header h1{
   font-size: 36pt;
@@ -30,5 +31,5 @@ body{
 }
 #box:hover{
   border: 1px solid white;
-  height: 60px;
+  height: 290px;
 }
