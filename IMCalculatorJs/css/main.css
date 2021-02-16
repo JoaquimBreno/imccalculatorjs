@@ -17,9 +17,19 @@ body{
   animation-timing-function: ease;
   margin-bottom: 0;
 }
+#header header h1::after{
+
+  animation-name: large;
+  animation-duration: 2s;
+  animation-timing-function:ease-in-out;
+}
 .btn:hover{
   color: #37403E;
   background: white;
+}
+@keyframes large{
+  0%{width: 0px;}
+  100%{width: 140px;}
 }
 @keyframes transformation{
   0%{font-size: 12pt; }

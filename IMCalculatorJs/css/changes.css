@@ -1,0 +1,13 @@
+header{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+}
+#btn{
+    color: darkblue;
+    font-size: 48px;
+}
+.btn:hover::after{
+    content: "Hi";
+    padding: 0%;
+}
