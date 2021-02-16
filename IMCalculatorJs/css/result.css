@@ -25,33 +25,26 @@
     align-items: center;
     justify-content: center;
     margin:0 auto;
-    font-family: Quicksand Bold, sans-serif;
+    font-family: Quicksand, sans-serif;
 }
 #brickone div{
     display: flex;
 }
 .btn{
-    
-    display: grid;
+    display:flex;
+    flex-direction: column;
     width: 180px;
     height: 50px;
     align-items: center;
-    justify-content: center;
-}
-.btn::after{
-    padding-left: 10px;
-    padding-right: 10px;
+    justify-content:center;
 }
 #box{
+    font-size: 12pt;
     box-shadow: 0 0 14px #424242;
     border-radius: 20px;
     margin-right:2em;
-    text-align: center;
     color: white;
-    text-shadow: 1px 1px 3px #ff8b06;
-    transition:200ms;
-    
-
+    transition:1000ms;
 }
 .btn2{
     box-shadow: 0 0 14px #424242;

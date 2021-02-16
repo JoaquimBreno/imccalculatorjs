@@ -27,17 +27,30 @@ body{
   color: #37403E;
   background: white;
 }
+.btn:hover::after{
+  content:'';
+  background-image: url(../assets/whatsapp-01.svg);
+  background-repeat:no-repeat;
+  margin: 0 auto;
+  margin-top: 10vh;
+  width: 100px;
+  height: 100px;
+  animation-name: opacity;
+  animation-duration: 1s;
+  animation-timing-function:cubic-bezier(0.165, 0.84, 0.44, 1);
+}
 @keyframes large{
   0%{width: 0px;}
   100%{width: 140px;}
 }
 @keyframes transformation{
   0%{font-size: 12pt; }
-  100%{font-size: 36pt;}
+  100%{font-size: 36pt; }
 }
 @keyframes opacity{
-  0%{opacity: 0;}
-  100%{opacity: 1;}
+  0%{opacity: 0; margin-top: 0vh;}
+  70%{margin-top: 0vh;}
+  100%{opacity: 1; margin-top: 10vh;}
 }
 #box:hover{
   border: 1px solid white;
