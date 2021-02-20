@@ -37,14 +37,16 @@
     height: 50px;
     align-items: center;
     justify-content:center;
+   
 }
 #box{
-    font-size: 12pt;
+    font-size: 14pt;
+    text-align: center;
     box-shadow: 0 0 14px #424242;
     border-radius: 20px;
     margin-right:2em;
     color: white;
-    transition:1000ms;
+    transition:1000ms; 
 }
 .btn2{
     box-shadow: 0 0 14px #424242;
