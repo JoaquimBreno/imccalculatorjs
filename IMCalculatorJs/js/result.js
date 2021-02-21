@@ -1,20 +1,35 @@
+var cor = localStorage.getItem("color");
+var x =document.getElementById("box");
+var runner = document.querySelector(".runner");
+
 window.onload = function(){
-    var x =document.getElementById("box");
     var message = localStorage.getItem("message");
     var gender = localStorage.getItem("gender");
+    
     x.innerHTML=message;
+    x.style.backgroundColor=cor;
     x.addEventListener("mouseover", colorone); 
     x.addEventListener("mouseout", colortwo); 
-    
-    
-    console.log(gender);
+
+    runner.addEventListener("mouseover", runone); 
+    runner.addEventListener("mouseout", runtwo); 
+
+    document.documentElement.style.setProperty('--act-color', cor);
 }
 
 function colorone(){
-    document.getElementById("box").style.backgroundColor="#42424200";
-}
-function colortwo(){
-    var cor = localStorage.getItem("color");
-    document.getElementById("box").style.backgroundColor=cor;
+    x.style.backgroundColor="#42424200";
+    
 }
 
+function colortwo(){
+    x.style.backgroundColor=cor;
+}
+
+function runone(){
+    runner.style.backgroundColor=cor;
+}
+    
+function runtwo(){
+    runner.style.backgroundColor= "#424242";
+}   

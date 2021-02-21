@@ -47,14 +47,66 @@
     margin-right:2em;
     color: white;
     transition:1000ms; 
+    cursor: pointer;
 }
 .btn2{
     box-shadow: 0 0 14px #424242;
-    display: flex;
+    display: block;
     width: 500px;
     height: 300px;
-    align-items: center;
-    justify-content: center;
     background-color: white;
     border-radius: 20px;
+}
+.btn2 h1 {
+    margin: 0.8em 0.5em 0.2em;
+    font-size: 1.6em;
+    text-align: center;
+    color: #424242;
+}
+.btn2 h2{
+    margin-bottom: 2em;
+    margin-right: 3em;
+    font-size: 0.5em;
+    text-align: right;
+}
+.explain{
+    margin: 1.2em 2em 0em;
+    font-size: 0.9em;
+    text-align: left;
+}
+.runner{
+    position: relative;
+    margin-left: 80%;
+    margin-top: 0.5em;
+    width:3em;
+    height:3.5em;
+    z-index: 3;
+    background-color: #424242;
+    -webkit-mask: url(../assets/runner-01.svg) no-repeat center;
+    mask: url(../assets/runner-01.svg) no-repeat center;
+    animation-name: moveopacity;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+.act{
+    position: absolute;
+    text-align: left;
+    margin: 0.8em 2em 0em 2.5em;
+    z-index: 2;
+    font-size: 0.7em;
+}
+
+.actlink{
+    position: absolute;
+    margin-top: 7.5em;
+    margin-left: 3.5em;
+    text-decoration: none;
+    z-index: 1;
+    font-size: 0.5em;
+    color:var(--act-color);
+}
+
+@keyframes moveopacity{
+    0%{margin-left: 50%; opacity: 0%; }
+    0%{opacity: 100%;}
 }
