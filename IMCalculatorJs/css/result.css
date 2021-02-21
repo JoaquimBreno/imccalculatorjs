@@ -98,11 +98,11 @@
 
 .actlink{
     position: absolute;
-    margin-top: 12em;
-    margin-left: 3.6em;
+    margin-top: 10em;
+    margin-left: 3em;
     text-decoration: none;
     z-index: 1;
-    font-size: 0.5em;
+    font-size: 0.6em;
     color:var(--act-color);
 }
 
