@@ -1,6 +1,7 @@
 html{
   font-family: Roboto, sans-serif;
 }
+
 body{
   margin: 0;
   opacity: 1;
@@ -9,6 +10,35 @@ body{
   animation-timing-function: ease;
   background-image: linear-gradient( to right, #161616, #2B2B2B);
 }
+
+.logo{
+  display: flex;
+  position: relative;
+  width: 100%;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(90deg, rgba(44, 43, 43, 0.18) 0%, rgba(27, 26, 26, 0.603) 51%, rgba(44, 43, 43, 0.184) 100%);
+}
+
+.logo img{
+  width: 200px;
+  height: 100%;
+  padding-left: 15vw;
+}
+
+.brick{
+  display: flex;
+  justify-content: center;
+  width: 40vw;
+}
+
+.bloco{
+  width: 9vw;
+  color: white;
+  text-decoration: none;
+}
+
 #header header h1{
   font-size: 36pt;
   opacity: 1;
@@ -17,16 +47,19 @@ body{
   animation-timing-function: ease;
   margin-bottom: 0;
 }
+
 #header header h1::after{
 
   animation-name: large;
   animation-duration: 2s;
   animation-timing-function:ease-in-out;
 }
+
 .btn1:hover{
   color: #37403E;
   background: white;
 }
+
 .btn:hover::after{
   content:'';
   background-image: url(../assets/whatsapp-01.svg);
@@ -39,10 +72,42 @@ body{
   animation-duration: 1s;
   animation-timing-function:cubic-bezier(0.165, 0.84, 0.44, 1);
 }
+
 #box:hover{
   border: 1px solid white;
   height: 360px;
 }
+
+.footer{
+  display: flex;
+  position: fixed;
+  left: 0;
+  bottom: 1px;
+  height: 6vh;
+  width: 100%;
+  background: rgb(44,43,43);
+  background: rgb(44,43,43);
+background: linear-gradient(90deg, rgba(44,43,43,0.18056729527748594) 0%, rgba(44,43,43,1) 51%, rgba(44,43,43,0.1833684157256653) 100%);
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer h5{
+  width: 50vw;
+  color: white;
+  font-weight: 300;
+}
+
+.socials{
+  width: 25vw;
+}
+
+.fa{
+  color: #fff;
+}
+
 @keyframes bodyopacity{
   0%{opacity: 0;}
   100%{opacity: 1;}
