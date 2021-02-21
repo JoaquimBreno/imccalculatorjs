@@ -52,7 +52,7 @@
 .btn2{
     box-shadow: 0 0 14px #424242;
     display: block;
-    width: 500px;
+    width: 650px;
     height: 360px;
     background-color: white;
     border-radius: 20px;
@@ -76,14 +76,14 @@
 }
 .runner{
     position: relative;
-    margin-left: 18em;
+    margin-left: 25em;
     margin-top: 1.5em;
     width:13vw;
     height:13vh;
     z-index: 3;
     background-color: #424242;
-    -webkit-mask: url(../assets/runner-01.svg) no-repeat center;
-    mask: url(../assets/runner-01.svg) no-repeat center;
+    -webkit-mask: url(../assets/runner-01-01.svg) no-repeat center;
+    mask: url(../assets/runner-01-01.svg) no-repeat center;
     animation-name: moveopacity;
     animation-duration: 3s;
     animation-timing-function:ease-in-out;
@@ -107,7 +107,7 @@
 }
 
 @keyframes moveopacity{
-    0%{margin-left: 50%; opacity: 0%; }
+    0%{margin-left: 9em; opacity: 0%; }
     25%{opacity: 0;}
-    100%{opacity: 100%;}
+    100%{opacity: 100%; margin-left: 25em;}
 }
