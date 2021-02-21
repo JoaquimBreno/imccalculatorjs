@@ -4,7 +4,7 @@ html{
 body{
   margin: 0;
   opacity: 1;
-  animation-name: opacity;
+  animation-name: bodyopacity;
   animation-duration: 1s;
   animation-timing-function: ease;
   background-image: linear-gradient( to right, #161616, #2B2B2B);
@@ -41,7 +41,11 @@ body{
 }
 #box:hover{
   border: 1px solid white;
-  height: 290px;
+  height: 360px;
+}
+@keyframes bodyopacity{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
 }
 @keyframes large{
   0%{width: 0px;}
@@ -53,6 +57,6 @@ body{
 }
 @keyframes opacity{
   0%{opacity: 0; margin-top: 0vh;}
-  70%{margin-top: 0vh;}
-  100%{opacity: 1; margin-top: 10vh;}
+  70%{margin-top: 0em;}
+  100%{opacity: 1;margin-top: 10vh;}
 }
